@@ -1,0 +1,8 @@
+16:21:32.789 [main] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar
+16:21:32.850 [main] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar
+16:21:32.870 [main] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar
+16:21:32.882 [main] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar
+16:21:32.906 [main] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar
+16:21:32.986 [main] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar
+16:21:33.007 [main] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar
+16:21:33.030 [main] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar

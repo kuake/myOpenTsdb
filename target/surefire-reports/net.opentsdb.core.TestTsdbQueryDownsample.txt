@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: net.opentsdb.core.TestTsdbQueryDownsample
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.728 sec - in net.opentsdb.core.TestTsdbQueryDownsample

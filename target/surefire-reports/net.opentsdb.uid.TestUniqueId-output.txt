@@ -1,0 +1,31 @@
+16:19:44.358 [main] INFO  net.opentsdb.uid.UniqueId - Could not find the UID assignment row
+16:19:44.556 [main] ERROR net.opentsdb.uid.UniqueId - OMG UID 257 was too large for 1 bytes
+16:19:44.965 [main] INFO  net.opentsdb.uid.UniqueId - Creating an ID for kind='metric' name='foo'
+16:19:44.971 [main] INFO  net.opentsdb.uid.UniqueId - Got ID=5 for kind='metric' name='foo'
+16:19:44.983 [main] INFO  net.opentsdb.uid.UniqueId - Completed pending assignment for: foo
+16:19:45.006 [main] INFO  net.opentsdb.uid.UniqueId - Creating an ID for kind='metric' name='foo'
+16:19:45.006 [main] INFO  net.opentsdb.uid.UniqueId - Got ID=256 for kind='metric' name='foo'
+16:19:45.006 [main] ERROR net.opentsdb.uid.UniqueId - OMG All Unique IDs for metric on 1 bytes are already assigned!
+16:19:45.006 [main] WARN  net.opentsdb.uid.UniqueId - Failed pending assignment for: foo
+16:19:45.006 [main] INFO  net.opentsdb.uid.UniqueId - Completed pending assignment for: foo
+16:19:45.020 [main] INFO  net.opentsdb.uid.UniqueId - Creating an ID for kind='metric' name='foo'
+16:19:45.026 [main] ERROR net.opentsdb.uid.UniqueId - Failed attempt #1 to assign an UID for metric:foo at step #1
+org.hbase.async.HBaseException$$EnhancerByMockitoWithCGLIB$$ee8f7067: fake exception
+	at net.opentsdb.uid.TestUniqueId.fakeHBaseException(TestUniqueId.java:939) ~[na:na]
+	at net.opentsdb.uid.TestUniqueId.getOrCreateIdWithICVFailure(TestUniqueId.java:437) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_75]
+16:19:45.026 [main] INFO  net.opentsdb.uid.UniqueId - Creating an ID for kind='metric' name='foo'
+16:19:45.026 [main] INFO  net.opentsdb.uid.UniqueId - Got ID=5 for kind='metric' name='foo'
+16:19:45.027 [main] INFO  net.opentsdb.uid.UniqueId - Completed pending assignment for: foo
+16:19:45.038 [main] INFO  net.opentsdb.uid.UniqueId - Creating an ID for kind='metric' name='foo'
+16:19:45.038 [main] INFO  net.opentsdb.uid.UniqueId - Got ID=6 for kind='metric' name='foo'
+16:19:45.039 [main] INFO  net.opentsdb.uid.UniqueId - Completed pending assignment for: foo
+16:19:46.060 [main] INFO  net.opentsdb.uid.UniqueId - Creating an ID for kind='metric' name='foo'
+16:19:46.072 [main] INFO  net.opentsdb.uid.UniqueId - Completed pending assignment for: foo
+16:19:46.533 [main] INFO  net.opentsdb.uid.UniqueId - Creating an ID for kind='metric' name='foo'
+16:19:46.534 [main] INFO  net.opentsdb.uid.UniqueId - Got ID=5 for kind='metric' name='foo'
+16:19:46.552 [main] INFO  net.opentsdb.uid.UniqueId - Completed pending assignment for: foo
+16:19:46.562 [main] INFO  net.opentsdb.uid.UniqueId - Creating an ID for kind='metric' name='foo'
+16:19:46.562 [main] INFO  net.opentsdb.uid.UniqueId - Got ID=6 for kind='metric' name='foo'
+16:19:46.563 [main] WARN  net.opentsdb.uid.UniqueId - Race condition: tried to assign ID 6 to metric:foo, but CAS failed on PutRequest(table="table", key="foo", family="id", qualifiers=["metric"], values=[[0, 0, 6]], timestamp=9223372036854775807, lockid=-1, durable=true, bufferable=true, attempt=0, region=null), which indicates this UID must have been allocated concurrently by another TSD or thread. So ID 6 was leaked.
+16:19:46.577 [main] INFO  net.opentsdb.uid.UniqueId - Completed pending assignment for: foo

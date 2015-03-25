@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: net.opentsdb.search.TestTimeSeriesLookup
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.5 sec - in net.opentsdb.search.TestTimeSeriesLookup

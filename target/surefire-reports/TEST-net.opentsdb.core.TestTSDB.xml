@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.opentsdb.core.TestTSDB" time="9.321" tests="67" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.7.0_75/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.75-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/tsdb/opentsdb-2.1.0RC1"/>
+    <property name="java.runtime.version" value="1.7.0_75-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.7.0_75/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/java/apache-maven-3.2.5/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-431.23.3.el6.x86_64"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/java/apache-maven-3.2.5/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.7.0_75/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_75"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.7.0_75/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.7.0_75/jre/lib/resources.jar:/usr/java/jdk1.7.0_75/jre/lib/rt.jar:/usr/java/jdk1.7.0_75/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_75/jre/lib/jsse.jar:/usr/java/jdk1.7.0_75/jre/lib/jce.jar:/usr/java/jdk1.7.0_75/jre/lib/charsets.jar:/usr/java/jdk1.7.0_75/jre/lib/jfr.jar:/usr/java/jdk1.7.0_75/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/java/apache-maven-3.2.5"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="initializePluginsDefaults" classname="net.opentsdb.core.TestTSDB" time="0.807"/>
+  <testcase name="initializePluginsPathSet" classname="net.opentsdb.core.TestTSDB" time="0.492"/>
+  <testcase name="initializePluginsPathBad" classname="net.opentsdb.core.TestTSDB" time="0.415"/>
+  <testcase name="getClient" classname="net.opentsdb.core.TestTSDB" time="0.171"/>
+  <testcase name="initializePluginsSearch" classname="net.opentsdb.core.TestTSDB" time="0.186"/>
+  <testcase name="initializePluginsSearchNotFound" classname="net.opentsdb.core.TestTSDB" time="0.135"/>
+  <testcase name="getConfig" classname="net.opentsdb.core.TestTSDB" time="0.11"/>
+  <testcase name="getUidNameMetric" classname="net.opentsdb.core.TestTSDB" time="0.124"/>
+  <testcase name="getUidNameTagk" classname="net.opentsdb.core.TestTSDB" time="0.156"/>
+  <testcase name="getUidNameTagv" classname="net.opentsdb.core.TestTSDB" time="0.171"/>
+  <testcase name="getUidNameMetricNSU" classname="net.opentsdb.core.TestTSDB" time="0.146"/>
+  <testcase name="getUidNameTagkNSU" classname="net.opentsdb.core.TestTSDB" time="0.103"/>
+  <testcase name="getUidNameTagvNSU" classname="net.opentsdb.core.TestTSDB" time="0.105"/>
+  <testcase name="getUidNameNullType" classname="net.opentsdb.core.TestTSDB" time="0.123"/>
+  <testcase name="getUidNameNullUID" classname="net.opentsdb.core.TestTSDB" time="0.099"/>
+  <testcase name="getUIDMetric" classname="net.opentsdb.core.TestTSDB" time="0.14"/>
+  <testcase name="getUIDTagk" classname="net.opentsdb.core.TestTSDB" time="0.1"/>
+  <testcase name="getUIDTagv" classname="net.opentsdb.core.TestTSDB" time="0.111"/>
+  <testcase name="getUIDMetricNSU" classname="net.opentsdb.core.TestTSDB" time="0.103"/>
+  <testcase name="getUIDTagkNSU" classname="net.opentsdb.core.TestTSDB" time="0.102"/>
+  <testcase name="getUIDTagvNSU" classname="net.opentsdb.core.TestTSDB" time="0.119"/>
+  <testcase name="getUIDNullType" classname="net.opentsdb.core.TestTSDB" time="0.1"/>
+  <testcase name="getUIDNullName" classname="net.opentsdb.core.TestTSDB" time="0.102"/>
+  <testcase name="getUIDEmptyName" classname="net.opentsdb.core.TestTSDB" time="0.102"/>
+  <testcase name="assignUidMetric" classname="net.opentsdb.core.TestTSDB" time="0.101"/>
+  <testcase name="assignUidMetricExists" classname="net.opentsdb.core.TestTSDB" time="0.12"/>
+  <testcase name="assignUidTagk" classname="net.opentsdb.core.TestTSDB" time="0.099"/>
+  <testcase name="assignUidTagkExists" classname="net.opentsdb.core.TestTSDB" time="0.101"/>
+  <testcase name="assignUidTagv" classname="net.opentsdb.core.TestTSDB" time="0.098"/>
+  <testcase name="assignUidTagvExists" classname="net.opentsdb.core.TestTSDB" time="0.102"/>
+  <testcase name="assignUidBadType" classname="net.opentsdb.core.TestTSDB" time="0.107"/>
+  <testcase name="assignUidNullType" classname="net.opentsdb.core.TestTSDB" time="0.097"/>
+  <testcase name="assignUidNullName" classname="net.opentsdb.core.TestTSDB" time="0.202"/>
+  <testcase name="assignUidInvalidCharacter" classname="net.opentsdb.core.TestTSDB" time="0.102"/>
+  <testcase name="uidTable" classname="net.opentsdb.core.TestTSDB" time="0.1"/>
+  <testcase name="addPointLong1Byte" classname="net.opentsdb.core.TestTSDB" time="0.177"/>
+  <testcase name="addPointLong1ByteNegative" classname="net.opentsdb.core.TestTSDB" time="0.108"/>
+  <testcase name="addPointLong2Bytes" classname="net.opentsdb.core.TestTSDB" time="0.099"/>
+  <testcase name="addPointLong2BytesNegative" classname="net.opentsdb.core.TestTSDB" time="0.118"/>
+  <testcase name="addPointLong4Bytes" classname="net.opentsdb.core.TestTSDB" time="0.142"/>
+  <testcase name="addPointLong4BytesNegative" classname="net.opentsdb.core.TestTSDB" time="0.107"/>
+  <testcase name="addPointLong8Bytes" classname="net.opentsdb.core.TestTSDB" time="0.106"/>
+  <testcase name="addPointLong8BytesNegative" classname="net.opentsdb.core.TestTSDB" time="0.098"/>
+  <testcase name="addPointLongMs" classname="net.opentsdb.core.TestTSDB" time="0.109"/>
+  <testcase name="addPointLongMany" classname="net.opentsdb.core.TestTSDB" time="0.181"/>
+  <testcase name="addPointLongManyMs" classname="net.opentsdb.core.TestTSDB" time="0.189"/>
+  <testcase name="addPointLongEndOfRow" classname="net.opentsdb.core.TestTSDB" time="0.098"/>
+  <testcase name="addPointLongOverwrite" classname="net.opentsdb.core.TestTSDB" time="0.099"/>
+  <testcase name="addPointNoAutoMetric" classname="net.opentsdb.core.TestTSDB" time="0.094"/>
+  <testcase name="addPointSecondZero" classname="net.opentsdb.core.TestTSDB" time="0.106"/>
+  <testcase name="addPointSecondOne" classname="net.opentsdb.core.TestTSDB" time="0.114"/>
+  <testcase name="addPointSecond2106" classname="net.opentsdb.core.TestTSDB" time="0.104"/>
+  <testcase name="addPointSecondNegative" classname="net.opentsdb.core.TestTSDB" time="0.099"/>
+  <testcase name="addPointMS1970" classname="net.opentsdb.core.TestTSDB" time="0.105"/>
+  <testcase name="addPointMS2106" classname="net.opentsdb.core.TestTSDB" time="0.112"/>
+  <testcase name="addPointMS2286" classname="net.opentsdb.core.TestTSDB" time="0.115"/>
+  <testcase name="addPointMSTooLarge" classname="net.opentsdb.core.TestTSDB" time="0.097"/>
+  <testcase name="addPointMSNegative" classname="net.opentsdb.core.TestTSDB" time="0.099"/>
+  <testcase name="addPointFloat" classname="net.opentsdb.core.TestTSDB" time="0.1"/>
+  <testcase name="addPointFloatNegative" classname="net.opentsdb.core.TestTSDB" time="0.143"/>
+  <testcase name="addPointFloatMs" classname="net.opentsdb.core.TestTSDB" time="0.132"/>
+  <testcase name="addPointFloatEndOfRow" classname="net.opentsdb.core.TestTSDB" time="0.136"/>
+  <testcase name="addPointFloatPrecision" classname="net.opentsdb.core.TestTSDB" time="0.136"/>
+  <testcase name="addPointFloatOverwrite" classname="net.opentsdb.core.TestTSDB" time="0.103"/>
+  <testcase name="addPointBothSameTimeIntAndFloat" classname="net.opentsdb.core.TestTSDB" time="0.132"/>
+  <testcase name="addPointBothSameTimeIntAndFloatMs" classname="net.opentsdb.core.TestTSDB" time="0.105"/>
+  <testcase name="addPointBothSameTimeSecondAndMs" classname="net.opentsdb.core.TestTSDB" time="0.107"/>
+</testsuite>

@@ -1,0 +1,11 @@
+16:24:35.115 [pool-1-thread-1] DEBUG n.opentsdb.core.AggregationIterator - Aggregating 1 iterators
+16:24:35.432 [pool-1-thread-1] DEBUG n.opentsdb.core.AggregationIterator - Aggregating 10000 iterators
+0.167565 seconds, 361 data points, (489874039800000, 2.28390e+07)for 10000 views
+16:24:35.674 [pool-1-thread-1] DEBUG n.opentsdb.core.AggregationIterator - Aggregating 2 iterators
+16:24:35.674 [pool-1-thread-1] DEBUG n.opentsdb.core.AggregationIterator - 1 out of 2 spans are empty!
+16:24:35.675 [pool-1-thread-1] DEBUG n.opentsdb.core.AggregationIterator - Aggregating 2 iterators
+16:24:35.681 [pool-1-thread-1] DEBUG n.opentsdb.core.AggregationIterator - Aggregating 7 iterators
+16:24:35.682 [pool-1-thread-1] DEBUG n.opentsdb.core.AggregationIterator - Aggregating 7 iterators
+16:24:35.983 [pool-1-thread-1] DEBUG n.opentsdb.core.AggregationIterator - Aggregating 250000 iterators
+1.563031 seconds, 361 data points, (489874039800000, 5.86946e+08)for 250000 views
+16:24:37.674 [pool-1-thread-1] DEBUG n.opentsdb.core.AggregationIterator - Aggregating 1 iterators

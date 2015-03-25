@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.opentsdb.tools.TestFsck" time="25.591" tests="140" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.7.0_75/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.75-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/tsdb/opentsdb-2.1.0RC1"/>
+    <property name="java.runtime.version" value="1.7.0_75-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.7.0_75/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/java/apache-maven-3.2.5/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-431.23.3.el6.x86_64"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/java/apache-maven-3.2.5/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.7.0_75/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_75"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.7.0_75/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.7.0_75/jre/lib/resources.jar:/usr/java/jdk1.7.0_75/jre/lib/rt.jar:/usr/java/jdk1.7.0_75/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_75/jre/lib/jsse.jar:/usr/java/jdk1.7.0_75/jre/lib/jce.jar:/usr/java/jdk1.7.0_75/jre/lib/charsets.jar:/usr/java/jdk1.7.0_75/jre/lib/jfr.jar:/usr/java/jdk1.7.0_75/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/java/apache-maven-3.2.5"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="badCompactTooLong" classname="net.opentsdb.tools.TestFsck" time="1.775"/>
+  <testcase name="badCompactTooLongFix" classname="net.opentsdb.tools.TestFsck" time="0.313"/>
+  <testcase name="integerVle1Byte" classname="net.opentsdb.tools.TestFsck" time="0.288"/>
+  <testcase name="integerVle1ByteFix" classname="net.opentsdb.tools.TestFsck" time="0.167"/>
+  <testcase name="integerVle1ByteNegative" classname="net.opentsdb.tools.TestFsck" time="0.159"/>
+  <testcase name="integerVle1ByteNegativeFix" classname="net.opentsdb.tools.TestFsck" time="0.159"/>
+  <testcase name="integerVle2Bytes" classname="net.opentsdb.tools.TestFsck" time="0.159"/>
+  <testcase name="integerVle2BytesFix" classname="net.opentsdb.tools.TestFsck" time="0.354"/>
+  <testcase name="integerVle2BytesNegative" classname="net.opentsdb.tools.TestFsck" time="0.189"/>
+  <testcase name="integerVle2BytesNegativeFix" classname="net.opentsdb.tools.TestFsck" time="0.158"/>
+  <testcase name="integerVle4Bytes" classname="net.opentsdb.tools.TestFsck" time="0.153"/>
+  <testcase name="integerVle4BytesFix" classname="net.opentsdb.tools.TestFsck" time="0.145"/>
+  <testcase name="integerVle4BytesNegative" classname="net.opentsdb.tools.TestFsck" time="0.228"/>
+  <testcase name="integerVle4BytesNegativeFix" classname="net.opentsdb.tools.TestFsck" time="0.212"/>
+  <testcase name="compactedVLE" classname="net.opentsdb.tools.TestFsck" time="0.22"/>
+  <testcase name="compactedVLEFix" classname="net.opentsdb.tools.TestFsck" time="0.16"/>
+  <testcase name="compactFixWithVLE" classname="net.opentsdb.tools.TestFsck" time="0.173"/>
+  <testcase name="dupesSinglesSeconds" classname="net.opentsdb.tools.TestFsck" time="0.146"/>
+  <testcase name="dupesSinglesSecondsFix" classname="net.opentsdb.tools.TestFsck" time="0.15"/>
+  <testcase name="dupesSinglesSecondsLWW" classname="net.opentsdb.tools.TestFsck" time="0.166"/>
+  <testcase name="dupesSinglesSecondsLWWFix" classname="net.opentsdb.tools.TestFsck" time="0.239"/>
+  <testcase name="dupeTimestampsMultipleSinglesSeconds" classname="net.opentsdb.tools.TestFsck" time="0.217"/>
+  <testcase name="dupeTimestampsMultipleSinglesSecondsFix" classname="net.opentsdb.tools.TestFsck" time="0.242"/>
+  <testcase name="dupeTimestampsMultipleSinglesSecondsLWW" classname="net.opentsdb.tools.TestFsck" time="0.188"/>
+  <testcase name="dupeTimestampsMultipleSinglesSecondsLWWFix" classname="net.opentsdb.tools.TestFsck" time="0.154"/>
+  <testcase name="dupeSinglesTimestampsMs" classname="net.opentsdb.tools.TestFsck" time="0.176"/>
+  <testcase name="dupeSinglesTimestampsMsFix" classname="net.opentsdb.tools.TestFsck" time="0.191"/>
+  <testcase name="dupeSinglesTimestampsMsLWW" classname="net.opentsdb.tools.TestFsck" time="0.201"/>
+  <testcase name="dupeSinglesTimestampsMsFixLWW" classname="net.opentsdb.tools.TestFsck" time="0.147"/>
+  <testcase name="dupeTimestampsMultipleSinglesMs" classname="net.opentsdb.tools.TestFsck" time="0.167"/>
+  <testcase name="dupeTimestampsMultipleSinglesMsFix" classname="net.opentsdb.tools.TestFsck" time="0.156"/>
+  <testcase name="dupeTimestampsMultipleSinglesMsLWW" classname="net.opentsdb.tools.TestFsck" time="0.287"/>
+  <testcase name="dupeTimestampsMultipleSinglesMsLWWFix" classname="net.opentsdb.tools.TestFsck" time="0.148"/>
+  <testcase name="dupesSinglesMixed" classname="net.opentsdb.tools.TestFsck" time="0.133"/>
+  <testcase name="dupesSinglesMixedFix" classname="net.opentsdb.tools.TestFsck" time="0.14"/>
+  <testcase name="dupesSinglesMixedLWW" classname="net.opentsdb.tools.TestFsck" time="0.132"/>
+  <testcase name="dupesSinglesMixedLWWFix" classname="net.opentsdb.tools.TestFsck" time="0.148"/>
+  <testcase name="twoCompactedColumnsWSameTS" classname="net.opentsdb.tools.TestFsck" time="0.131"/>
+  <testcase name="twoCompactedColumnsWSameTSFix" classname="net.opentsdb.tools.TestFsck" time="0.147"/>
+  <testcase name="twoCompactedColumnsWSameTSLWW" classname="net.opentsdb.tools.TestFsck" time="0.137"/>
+  <testcase name="twoCompactedColumnsWSameTSFixLLW" classname="net.opentsdb.tools.TestFsck" time="0.155"/>
+  <testcase name="twoCompactedColumnsMSWSameTS" classname="net.opentsdb.tools.TestFsck" time="0.13"/>
+  <testcase name="twoCompactedColumnsMSWSameTSFix" classname="net.opentsdb.tools.TestFsck" time="0.136"/>
+  <testcase name="twoCompactedColumnsMSWSameTSLLW" classname="net.opentsdb.tools.TestFsck" time="0.139"/>
+  <testcase name="twoCompactedColumnsMSWSameTSLWWFix" classname="net.opentsdb.tools.TestFsck" time="0.14"/>
+  <testcase name="twoCompactedPlusSingleWSameTS" classname="net.opentsdb.tools.TestFsck" time="0.162"/>
+  <testcase name="twoCompactedPlusSingleWSameTSFix" classname="net.opentsdb.tools.TestFsck" time="0.139"/>
+  <testcase name="twoCompactedPlusSingleWSameTSLWW" classname="net.opentsdb.tools.TestFsck" time="0.142"/>
+  <testcase name="twoCompactedPlusSingleWSameTSLWWFix" classname="net.opentsdb.tools.TestFsck" time="0.142"/>
+  <testcase name="compactedAndSingleWSameTS" classname="net.opentsdb.tools.TestFsck" time="0.13"/>
+  <testcase name="compactedAndSingleWSameTSFix" classname="net.opentsdb.tools.TestFsck" time="0.152"/>
+  <testcase name="compactedAndSingleWSameTSLWW" classname="net.opentsdb.tools.TestFsck" time="0.141"/>
+  <testcase name="compactedAndSingleWSameTSLWWFix" classname="net.opentsdb.tools.TestFsck" time="0.139"/>
+  <testcase name="globalAnnotation" classname="net.opentsdb.tools.TestFsck" time="0.138"/>
+  <testcase name="compactedAndSingleMSWSameTS" classname="net.opentsdb.tools.TestFsck" time="0.132"/>
+  <testcase name="compactedAndSingleMSWSameTSFix" classname="net.opentsdb.tools.TestFsck" time="0.156"/>
+  <testcase name="compactedAndSingleMSWSameTSLWW" classname="net.opentsdb.tools.TestFsck" time="0.128"/>
+  <testcase name="compactedAndSingleMSWSameTSLWWFix" classname="net.opentsdb.tools.TestFsck" time="0.13"/>
+  <testcase name="compactedAndSingleMixedWSameTS" classname="net.opentsdb.tools.TestFsck" time="0.135"/>
+  <testcase name="compactedAndSingleMixedWSameTSFix" classname="net.opentsdb.tools.TestFsck" time="0.145"/>
+  <testcase name="compactedAndSingleMixedWSameTSLWW" classname="net.opentsdb.tools.TestFsck" time="0.136"/>
+  <testcase name="compactedAndSingleMixedWSameTSLWWFix" classname="net.opentsdb.tools.TestFsck" time="0.135"/>
+  <testcase name="tripleCompactedColumnsWSameTS" classname="net.opentsdb.tools.TestFsck" time="0.133"/>
+  <testcase name="tripleCompactedColumnsWSameTSFix" classname="net.opentsdb.tools.TestFsck" time="0.144"/>
+  <testcase name="tripleCompactedColumnsWSameTSLWW" classname="net.opentsdb.tools.TestFsck" time="0.138"/>
+  <testcase name="tripleCompactedColumnsWSameTSLWWFix" classname="net.opentsdb.tools.TestFsck" time="0.149"/>
+  <testcase name="compactAndNotFixDupes" classname="net.opentsdb.tools.TestFsck" time="0.129"/>
+  <testcase name="compactAndFixDupes" classname="net.opentsdb.tools.TestFsck" time="0.133"/>
+  <testcase name="vleAndCompact" classname="net.opentsdb.tools.TestFsck" time="0.127"/>
+  <testcase name="compactAndNotFixIntegerWrongLength" classname="net.opentsdb.tools.TestFsck" time="0.131"/>
+  <testcase name="compactAndFixIntegerWrongLength" classname="net.opentsdb.tools.TestFsck" time="0.131"/>
+  <testcase name="rowOfBadValuesNotFix" classname="net.opentsdb.tools.TestFsck" time="0.142"/>
+  <testcase name="rowOfBadValuesFix" classname="net.opentsdb.tools.TestFsck" time="0.158"/>
+  <testcase name="compactedAndBadValuesNotFix" classname="net.opentsdb.tools.TestFsck" time="0.144"/>
+  <testcase name="compactedAndBadValuesFix" classname="net.opentsdb.tools.TestFsck" time="0.153"/>
+  <testcase name="compactedAndBadValuesNotFixAndDupesNotFix" classname="net.opentsdb.tools.TestFsck" time="0.137"/>
+  <testcase name="compactedAndBadValuesFixAndDupesNotFix" classname="net.opentsdb.tools.TestFsck" time="0.146"/>
+  <testcase name="compactedAndBadValuesNotFixAndDupesFix" classname="net.opentsdb.tools.TestFsck" time="0.134"/>
+  <testcase name="compactedAndBadValuesFixAndDupesFix" classname="net.opentsdb.tools.TestFsck" time="0.215"/>
+  <testcase name="compactedAndBadValuesFixAndDupesLWWFix" classname="net.opentsdb.tools.TestFsck" time="0.236"/>
+  <testcase name="runQuery" classname="net.opentsdb.tools.TestFsck" time="0.249"/>
+  <testcase name="noData" classname="net.opentsdb.tools.TestFsck" time="0.125"/>
+  <testcase name="noErrors" classname="net.opentsdb.tools.TestFsck" time="0.122"/>
+  <testcase name="noErrorsMultipleRows" classname="net.opentsdb.tools.TestFsck" time="0.135"/>
+  <testcase name="noErrorsMilliseconds" classname="net.opentsdb.tools.TestFsck" time="1.075"/>
+  <testcase name="noErrorsAnnotation" classname="net.opentsdb.tools.TestFsck" time="0.126"/>
+  <testcase name="noErrorsMixedMsAndSeconds" classname="net.opentsdb.tools.TestFsck" time="1.23"/>
+  <testcase name="noErrorsMixedMsAndSecondsAnnotations" classname="net.opentsdb.tools.TestFsck" time="1.063"/>
+  <testcase name="noErrorsCompacted" classname="net.opentsdb.tools.TestFsck" time="0.122"/>
+  <testcase name="noErrorsCompactedMS" classname="net.opentsdb.tools.TestFsck" time="0.123"/>
+  <testcase name="noErrorsCompactedMix" classname="net.opentsdb.tools.TestFsck" time="0.122"/>
+  <testcase name="noErrorsCompactedMixReverse" classname="net.opentsdb.tools.TestFsck" time="0.122"/>
+  <testcase name="singleValueCompacted" classname="net.opentsdb.tools.TestFsck" time="0.124"/>
+  <testcase name="singleValueCompactedFix" classname="net.opentsdb.tools.TestFsck" time="0.123"/>
+  <testcase name="noSuchMetricId" classname="net.opentsdb.tools.TestFsck" time="0.119"/>
+  <testcase name="noSuchMetricIdFix" classname="net.opentsdb.tools.TestFsck" time="0.12"/>
+  <testcase name="noSuchTagId" classname="net.opentsdb.tools.TestFsck" time="0.12"/>
+  <testcase name="noSuchTagIdFix" classname="net.opentsdb.tools.TestFsck" time="0.118"/>
+  <testcase name="badRowKey" classname="net.opentsdb.tools.TestFsck" time="0.131"/>
+  <testcase name="badRowKeyFix" classname="net.opentsdb.tools.TestFsck" time="0.135"/>
+  <testcase name="lastCompactedByteNotZero" classname="net.opentsdb.tools.TestFsck" time="0.119"/>
+  <testcase name="oneByteQualifier" classname="net.opentsdb.tools.TestFsck" time="0.129"/>
+  <testcase name="oneByteQualifierFix" classname="net.opentsdb.tools.TestFsck" time="0.121"/>
+  <testcase name="valueTooLong" classname="net.opentsdb.tools.TestFsck" time="0.124"/>
+  <testcase name="valueTooLongFix" classname="net.opentsdb.tools.TestFsck" time="0.121"/>
+  <testcase name="valueTooLongMS" classname="net.opentsdb.tools.TestFsck" time="0.133"/>
+  <testcase name="valueTooLongMSFix" classname="net.opentsdb.tools.TestFsck" time="0.162"/>
+  <testcase name="valueTooShort" classname="net.opentsdb.tools.TestFsck" time="0.125"/>
+  <testcase name="valueTooShortFix" classname="net.opentsdb.tools.TestFsck" time="0.121"/>
+  <testcase name="valueTooShortMS" classname="net.opentsdb.tools.TestFsck" time="0.12"/>
+  <testcase name="valueTooShortMSFix" classname="net.opentsdb.tools.TestFsck" time="0.124"/>
+  <testcase name="float8byteVal4byteQual" classname="net.opentsdb.tools.TestFsck" time="0.133"/>
+  <testcase name="float8byteVal4byteQualFix" classname="net.opentsdb.tools.TestFsck" time="0.126"/>
+  <testcase name="float8byteVal8byteQual" classname="net.opentsdb.tools.TestFsck" time="0.119"/>
+  <testcase name="float8byteVal4byteQualSignExtensionBug" classname="net.opentsdb.tools.TestFsck" time="0.127"/>
+  <testcase name="float8byteVal4byteQualSignExtensionBugFix" classname="net.opentsdb.tools.TestFsck" time="0.126"/>
+  <testcase name="float8byteVal4byteQualSignExtensionBugCompacted" classname="net.opentsdb.tools.TestFsck" time="0.123"/>
+  <testcase name="float8byteVal4byteQualSignExtensionBugCompactedFix" classname="net.opentsdb.tools.TestFsck" time="0.127"/>
+  <testcase name="float8byteVal4byteQualMessedUp" classname="net.opentsdb.tools.TestFsck" time="0.122"/>
+  <testcase name="float8byteVal4byteQualMessedUpFix" classname="net.opentsdb.tools.TestFsck" time="0.162"/>
+  <testcase name="float4byteVal8byteQual" classname="net.opentsdb.tools.TestFsck" time="0.122"/>
+  <testcase name="float4byteVal8byteQualFix" classname="net.opentsdb.tools.TestFsck" time="0.124"/>
+  <testcase name="floatBadVal4ByteQual" classname="net.opentsdb.tools.TestFsck" time="0.126"/>
+  <testcase name="floatBadVal4ByteQualFix" classname="net.opentsdb.tools.TestFsck" time="0.152"/>
+  <testcase name="floatBadVal8ByteQual" classname="net.opentsdb.tools.TestFsck" time="0.159"/>
+  <testcase name="floatBadVal8ByteQualFix" classname="net.opentsdb.tools.TestFsck" time="0.164"/>
+  <testcase name="unknownObject" classname="net.opentsdb.tools.TestFsck" time="0.163"/>
+  <testcase name="unknownObjectFix" classname="net.opentsdb.tools.TestFsck" time="0.162"/>
+  <testcase name="futureObject" classname="net.opentsdb.tools.TestFsck" time="0.166"/>
+  <testcase name="futureObjectShouldNotDelete" classname="net.opentsdb.tools.TestFsck" time="0.124"/>
+  <testcase name="integerWrongLength" classname="net.opentsdb.tools.TestFsck" time="0.126"/>
+  <testcase name="integerWrongLengthFix" classname="net.opentsdb.tools.TestFsck" time="0.121"/>
+  <testcase name="compactOutOfOrder" classname="net.opentsdb.tools.TestFsck" time="0.125"/>
+  <testcase name="compactOutOfOrderFix" classname="net.opentsdb.tools.TestFsck" time="0.128"/>
+  <testcase name="compactWithoutFix" classname="net.opentsdb.tools.TestFsck" time="0.123"/>
+  <testcase name="compactFix" classname="net.opentsdb.tools.TestFsck" time="0.125"/>
+  <testcase name="compactTwoRowsWithoutFix" classname="net.opentsdb.tools.TestFsck" time="0.129"/>
+  <testcase name="compactTwoRowsFix" classname="net.opentsdb.tools.TestFsck" time="0.127"/>
+  <testcase name="badCompactTooShort" classname="net.opentsdb.tools.TestFsck" time="0.12"/>
+  <testcase name="badCompactTooShortFix" classname="net.opentsdb.tools.TestFsck" time="0.12"/>
+</testsuite>

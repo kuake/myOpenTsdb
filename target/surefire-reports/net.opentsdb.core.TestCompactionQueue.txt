@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: net.opentsdb.core.TestCompactionQueue
+-------------------------------------------------------------------------------
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.144 sec - in net.opentsdb.core.TestCompactionQueue

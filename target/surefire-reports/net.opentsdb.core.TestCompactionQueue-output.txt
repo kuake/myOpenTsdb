@@ -1,0 +1,3 @@
+16:27:04.973 [main] WARN  net.opentsdb.core.CompactionQueue - Duplicate timestamp for key=[0, 0, 1, 78, 36, -84, 42, 0, 0, 1, 0, 0, 2], ms_offset=0, kept=[0, 0, 0, 0, 0, 0, 0, 5], discarded=[0, 0, 0, 0, 0, 0, 0, 4]
+16:27:05.124 [main] WARN  net.opentsdb.core.CompactionQueue - Duplicate timestamp for key=[0, 0, 1, 78, 36, -84, 42, 0, 0, 1, 0, 0, 2], ms_offset=0, kept=[0, 0, 0, 4], discarded=[0, 0, 0, 0, 0, 0, 0, 4]
+16:27:05.304 [main] WARN  net.opentsdb.core.CompactionQueue - Duplicate timestamp for key=[0, 0, 1, 78, 36, -84, 42, 0, 0, 1, 0, 0, 2], ms_offset=0, kept=[0, 0, 0, 0, 0, 0, 0, 6], discarded=[0, 0, 0, 0, 0, 0, 0, 4]

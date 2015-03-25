@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: net.opentsdb.meta.TestAnnotation
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.858 sec - in net.opentsdb.meta.TestAnnotation

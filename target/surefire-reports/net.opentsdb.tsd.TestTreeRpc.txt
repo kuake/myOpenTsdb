@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: net.opentsdb.tsd.TestTreeRpc
+-------------------------------------------------------------------------------
+Tests run: 90, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.394 sec - in net.opentsdb.tsd.TestTreeRpc

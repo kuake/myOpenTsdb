@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.opentsdb.core.TestTags" time="4.516" tests="69" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.7.0_75/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.75-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/tsdb/opentsdb-2.1.0RC1"/>
+    <property name="java.runtime.version" value="1.7.0_75-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.7.0_75/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/java/apache-maven-3.2.5/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-431.23.3.el6.x86_64"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/java/apache-maven-3.2.5/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.7.0_75/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_75"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.7.0_75/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.7.0_75/jre/lib/resources.jar:/usr/java/jdk1.7.0_75/jre/lib/rt.jar:/usr/java/jdk1.7.0_75/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_75/jre/lib/jsse.jar:/usr/java/jdk1.7.0_75/jre/lib/jce.jar:/usr/java/jdk1.7.0_75/jre/lib/charsets.jar:/usr/java/jdk1.7.0_75/jre/lib/jfr.jar:/usr/java/jdk1.7.0_75/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/java/apache-maven-3.2.5"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="resolveOrCreateTagkNotAllowedBlocked" classname="net.opentsdb.core.TestTags" time="1.249"/>
+  <testcase name="resolveOrCreateTagvAllowed" classname="net.opentsdb.core.TestTags" time="0.657"/>
+  <testcase name="resolveOrCreateTagvNotAllowedGood" classname="net.opentsdb.core.TestTags" time="0.225"/>
+  <testcase name="resolveOrCreateTagvNotAllowedBlocked" classname="net.opentsdb.core.TestTags" time="0.168"/>
+  <testcase name="parseWithMetricWTags" classname="net.opentsdb.core.TestTags" time="0.01"/>
+  <testcase name="parseWithMetricMetricOnly" classname="net.opentsdb.core.TestTags" time="0.009"/>
+  <testcase name="parseWithMetricMetricEmptyCurlies" classname="net.opentsdb.core.TestTags" time="0.008"/>
+  <testcase name="parseWithMetricNullMetric" classname="net.opentsdb.core.TestTags" time="0.013"/>
+  <testcase name="parseWithMetricNullTagv" classname="net.opentsdb.core.TestTags" time="0.009"/>
+  <testcase name="parseWithMetricWTag" classname="net.opentsdb.core.TestTags" time="0.015"/>
+  <testcase name="parseWithMetricNullTagk" classname="net.opentsdb.core.TestTags" time="0.015"/>
+  <testcase name="parseWithMetricNullTagv2" classname="net.opentsdb.core.TestTags" time="0.013"/>
+  <testcase name="parseWithMetricNullTagk2" classname="net.opentsdb.core.TestTags" time="0.023"/>
+  <testcase name="parseWithMetricNullTagv3" classname="net.opentsdb.core.TestTags" time="0.013"/>
+  <testcase name="parseWithMetricNullTagk3" classname="net.opentsdb.core.TestTags" time="0.008"/>
+  <testcase name="parseWithMetricNull" classname="net.opentsdb.core.TestTags" time="0.009"/>
+  <testcase name="parseWithMetricEmpty" classname="net.opentsdb.core.TestTags" time="0.008"/>
+  <testcase name="parseWithMetricMissingClosingCurly" classname="net.opentsdb.core.TestTags" time="0.013"/>
+  <testcase name="parseWithMetricMissingOpeningCurly" classname="net.opentsdb.core.TestTags" time="0.016"/>
+  <testcase name="parseWithMetricMissingEquals" classname="net.opentsdb.core.TestTags" time="0.016"/>
+  <testcase name="parseWithMetricMissingComma" classname="net.opentsdb.core.TestTags" time="0.023"/>
+  <testcase name="parseWithMetricTrailingComma" classname="net.opentsdb.core.TestTags" time="0.023"/>
+  <testcase name="parseWithMetricForwardComma" classname="net.opentsdb.core.TestTags" time="0.013"/>
+  <testcase name="parseWithMetricListMetricOnly" classname="net.opentsdb.core.TestTags" time="0.014"/>
+  <testcase name="parseWithMetricListMetricEmptyCurlies" classname="net.opentsdb.core.TestTags" time="0.007"/>
+  <testcase name="parseWithMetricListNullMetric" classname="net.opentsdb.core.TestTags" time="0.01"/>
+  <testcase name="parseWithMetricListNullTagv" classname="net.opentsdb.core.TestTags" time="0.007"/>
+  <testcase name="parseWithMetricListNullTagk" classname="net.opentsdb.core.TestTags" time="0.007"/>
+  <testcase name="parseWithMetricListWTag" classname="net.opentsdb.core.TestTags" time="0.007"/>
+  <testcase name="parseWithMetricListNullTagv2" classname="net.opentsdb.core.TestTags" time="0.009"/>
+  <testcase name="parseWithMetricListNullTagk2" classname="net.opentsdb.core.TestTags" time="0.015"/>
+  <testcase name="parseWithMetricListNullTagv3" classname="net.opentsdb.core.TestTags" time="0.023"/>
+  <testcase name="parseWithMetricListNullTagk3" classname="net.opentsdb.core.TestTags" time="0.017"/>
+  <testcase name="parseWithMetricListNull" classname="net.opentsdb.core.TestTags" time="0.012"/>
+  <testcase name="parseWithMetricListEmpty" classname="net.opentsdb.core.TestTags" time="0.016"/>
+  <testcase name="parseWithMetricListMissingClosingCurly" classname="net.opentsdb.core.TestTags" time="0.011"/>
+  <testcase name="parseWithMetricListMissingOpeningCurly" classname="net.opentsdb.core.TestTags" time="0.012"/>
+  <testcase name="parseWithMetricListMissingEquals" classname="net.opentsdb.core.TestTags" time="0.019"/>
+  <testcase name="parseWithMetricListMissingComma" classname="net.opentsdb.core.TestTags" time="0.018"/>
+  <testcase name="parseWithMetricListTrailingComma" classname="net.opentsdb.core.TestTags" time="0.014"/>
+  <testcase name="parseWithMetricListForwardComma" classname="net.opentsdb.core.TestTags" time="0.017"/>
+  <testcase name="parseWithMetricOnlyEquals" classname="net.opentsdb.core.TestTags" time="0.019"/>
+  <testcase name="parseSuccessful" classname="net.opentsdb.core.TestTags" time="0.03"/>
+  <testcase name="parseNoEqualSign" classname="net.opentsdb.core.TestTags" time="0.03"/>
+  <testcase name="parseTooManyEqualSigns" classname="net.opentsdb.core.TestTags" time="0.016"/>
+  <testcase name="parseEmptyTagName" classname="net.opentsdb.core.TestTags" time="0.011"/>
+  <testcase name="parseEmptyTagValue" classname="net.opentsdb.core.TestTags" time="0.012"/>
+  <testcase name="parseDifferentValues" classname="net.opentsdb.core.TestTags" time="0.012"/>
+  <testcase name="parseSameValues" classname="net.opentsdb.core.TestTags" time="0.009"/>
+  <testcase name="validateGoodString" classname="net.opentsdb.core.TestTags" time="0.009"/>
+  <testcase name="validateNullString" classname="net.opentsdb.core.TestTags" time="0.01"/>
+  <testcase name="validateBadString" classname="net.opentsdb.core.TestTags" time="0.008"/>
+  <testcase name="parseLongSimple" classname="net.opentsdb.core.TestTags" time="0.015"/>
+  <testcase name="parseLongMaxValue" classname="net.opentsdb.core.TestTags" time="0.02"/>
+  <testcase name="parseLongMinValue" classname="net.opentsdb.core.TestTags" time="0.018"/>
+  <testcase name="parseLongEmptyString" classname="net.opentsdb.core.TestTags" time="0.013"/>
+  <testcase name="parseLongMalformed" classname="net.opentsdb.core.TestTags" time="0.013"/>
+  <testcase name="parseLongMalformedPlus" classname="net.opentsdb.core.TestTags" time="0.011"/>
+  <testcase name="parseLongMalformedMinus" classname="net.opentsdb.core.TestTags" time="0.013"/>
+  <testcase name="parseLongValueTooLarge" classname="net.opentsdb.core.TestTags" time="0.007"/>
+  <testcase name="parseLongValueTooLargeSubtle" classname="net.opentsdb.core.TestTags" time="0.007"/>
+  <testcase name="parseLongValueTooSmallSubtle" classname="net.opentsdb.core.TestTags" time="0.008"/>
+  <testcase name="resolveIdsAsync" classname="net.opentsdb.core.TestTags" time="0.315"/>
+  <testcase name="resolveIdsAsyncNSUI" classname="net.opentsdb.core.TestTags" time="0.193"/>
+  <testcase name="resolveIdsAsyncEmptyList" classname="net.opentsdb.core.TestTags" time="0.107"/>
+  <testcase name="resolveIdsAsyncWrongLength" classname="net.opentsdb.core.TestTags" time="0.113"/>
+  <testcase name="resolveOrCreateAllCreate" classname="net.opentsdb.core.TestTags" time="0.14"/>
+  <testcase name="resolveOrCreateTagkAllowed" classname="net.opentsdb.core.TestTags" time="0.321"/>
+  <testcase name="resolveOrCreateTagkNotAllowedGood" classname="net.opentsdb.core.TestTags" time="0.245"/>
+</testsuite>

@@ -1,0 +1,8 @@
+16:20:13.099 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/suggest?type=tagv&q=w done in 1286ms
+16:20:13.236 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/suggest done in 60ms
+16:20:13.298 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/suggest?type=metrics&q=s done in 1ms
+16:20:13.319 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/suggest done in 1ms
+16:20:13.338 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/suggest?type=metrics&q=s&max=1 done in 1ms
+16:20:13.354 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/suggest done in 3ms
+16:20:13.364 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/suggest?type=tagk&q=h done in 0ms
+16:20:13.377 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/suggest done in 1ms

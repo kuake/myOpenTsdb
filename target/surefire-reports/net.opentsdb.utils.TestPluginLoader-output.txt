@@ -1,0 +1,57 @@
+16:23:32.492 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar
+16:23:32.501 [pool-1-thread-1] WARN  net.opentsdb.utils.PluginLoader - Unable to locate any plugins of the type: net.opentsdb.utils.TestPluginLoader$DummyPluginBad
+16:23:32.523 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar
+16:23:32.530 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar
+16:23:32.535 [pool-1-thread-1] WARN  net.opentsdb.utils.PluginLoader - Unable to locate plugin: net.opentsdb.plugin.DummyPluginC
+16:23:32.542 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/plugin_test.jar
+16:23:32.548 [pool-1-thread-1] WARN  net.opentsdb.utils.PluginLoader - Unable to locate any plugins of the type: net.opentsdb.utils.TestPluginLoader$DummyPluginBad
+16:23:32.584 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./plugin_test.jar
+16:23:32.622 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter3409451192006800597.jar
+16:23:32.622 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter460069561630295201.jar
+16:23:32.622 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter942300147901714493.jar
+16:23:32.622 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter7182654184934030046.jar
+16:23:32.622 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter7578665585732516635.jar
+16:23:32.622 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter3988701652583594084.jar
+16:23:32.622 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter8577524749418201458.jar
+16:23:32.622 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter3096325275702341009.jar
+16:23:32.623 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter1186616039248750408.jar
+16:23:32.623 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter5193555853646483067.jar
+16:23:32.623 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter2619783542229076081.jar
+16:23:32.623 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter284412288767389580.jar
+16:23:32.623 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter2290574002983993540.jar
+16:23:32.623 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter6696781075780230916.jar
+16:23:32.623 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter7391149352187402174.jar
+16:23:32.623 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter2773684012913466858.jar
+16:23:32.623 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter5578290539566594150.jar
+16:23:32.623 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter3894559177518820100.jar
+16:23:32.623 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter4214113140450206980.jar
+16:23:32.624 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter8014015505123242821.jar
+16:23:32.624 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter9064299947261296758.jar
+16:23:32.624 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter6182866300620643202.jar
+16:23:32.624 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter5339737849835841262.jar
+16:23:32.624 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Found a jar: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter6682208135585806515.jar
+16:23:32.632 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./plugin_test.jar
+16:23:32.632 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter3409451192006800597.jar
+16:23:32.632 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter460069561630295201.jar
+16:23:32.632 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter942300147901714493.jar
+16:23:32.632 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter7182654184934030046.jar
+16:23:32.632 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter7578665585732516635.jar
+16:23:32.633 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter3988701652583594084.jar
+16:23:32.633 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter8577524749418201458.jar
+16:23:32.633 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter3096325275702341009.jar
+16:23:32.633 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter1186616039248750408.jar
+16:23:32.634 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter5193555853646483067.jar
+16:23:32.636 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter2619783542229076081.jar
+16:23:32.636 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter284412288767389580.jar
+16:23:32.636 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter2290574002983993540.jar
+16:23:32.637 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter6696781075780230916.jar
+16:23:32.637 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter7391149352187402174.jar
+16:23:32.637 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter2773684012913466858.jar
+16:23:32.638 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter5578290539566594150.jar
+16:23:32.640 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter3894559177518820100.jar
+16:23:32.640 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter4214113140450206980.jar
+16:23:32.640 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter8014015505123242821.jar
+16:23:32.640 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter9064299947261296758.jar
+16:23:32.643 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter6182866300620643202.jar
+16:23:32.643 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter5339737849835841262.jar
+16:23:32.643 [pool-1-thread-1] DEBUG net.opentsdb.utils.PluginLoader - Successfully added JAR to class loader: /tsdb/opentsdb-2.1.0RC1/./target/surefire/surefirebooter6682208135585806515.jar

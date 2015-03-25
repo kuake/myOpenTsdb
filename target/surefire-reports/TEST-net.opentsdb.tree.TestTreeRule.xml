@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.opentsdb.tree.TestTreeRule" time="2.265" tests="40" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.7.0_75/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.75-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/tsdb/opentsdb-2.1.0RC1"/>
+    <property name="java.runtime.version" value="1.7.0_75-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.7.0_75/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/java/apache-maven-3.2.5/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-431.23.3.el6.x86_64"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/java/apache-maven-3.2.5/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.7.0_75/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_75"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.7.0_75/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.7.0_75/jre/lib/resources.jar:/usr/java/jdk1.7.0_75/jre/lib/rt.jar:/usr/java/jdk1.7.0_75/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_75/jre/lib/jsse.jar:/usr/java/jdk1.7.0_75/jre/lib/jce.jar:/usr/java/jdk1.7.0_75/jre/lib/charsets.jar:/usr/java/jdk1.7.0_75/jre/lib/jfr.jar:/usr/java/jdk1.7.0_75/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/java/apache-maven-3.2.5"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="copyConstructor" classname="net.opentsdb.tree.TestTreeRule" time="0.249"/>
+  <testcase name="deserialize" classname="net.opentsdb.tree.TestTreeRule" time="0.744"/>
+  <testcase name="stringToTypeMetric" classname="net.opentsdb.tree.TestTreeRule" time="0.013"/>
+  <testcase name="stringToTypeMetricCustom" classname="net.opentsdb.tree.TestTreeRule" time="0.017"/>
+  <testcase name="stringToTypeTagk" classname="net.opentsdb.tree.TestTreeRule" time="0.018"/>
+  <testcase name="stringToTypeTagkCustom" classname="net.opentsdb.tree.TestTreeRule" time="0.007"/>
+  <testcase name="setRegex" classname="net.opentsdb.tree.TestTreeRule" time="0.007"/>
+  <testcase name="stringToTypeTagvCustom" classname="net.opentsdb.tree.TestTreeRule" time="0.006"/>
+  <testcase name="stringToTypeNull" classname="net.opentsdb.tree.TestTreeRule" time="0.007"/>
+  <testcase name="stringToTypeEmpty" classname="net.opentsdb.tree.TestTreeRule" time="0.007"/>
+  <testcase name="stringToTypeInvalid" classname="net.opentsdb.tree.TestTreeRule" time="0.006"/>
+  <testcase name="deserializeBadRegexCompile" classname="net.opentsdb.tree.TestTreeRule" time="0.008"/>
+  <testcase name="fetchRule" classname="net.opentsdb.tree.TestTreeRule" time="0.656"/>
+  <testcase name="fetchRuleDoesNotExist" classname="net.opentsdb.tree.TestTreeRule" time="0.032"/>
+  <testcase name="fetchRuleBadTreeID0" classname="net.opentsdb.tree.TestTreeRule" time="0.021"/>
+  <testcase name="fetchRuleBadTreeID65536" classname="net.opentsdb.tree.TestTreeRule" time="0.026"/>
+  <testcase name="fetchRuleBadLevel" classname="net.opentsdb.tree.TestTreeRule" time="0.034"/>
+  <testcase name="fetchRuleBadOrder" classname="net.opentsdb.tree.TestTreeRule" time="0.034"/>
+  <testcase name="setRegexBadPattern" classname="net.opentsdb.tree.TestTreeRule" time="0.009"/>
+  <testcase name="setRegexNull" classname="net.opentsdb.tree.TestTreeRule" time="0.005"/>
+  <testcase name="setRegexEmpty" classname="net.opentsdb.tree.TestTreeRule" time="0.021"/>
+  <testcase name="serialize" classname="net.opentsdb.tree.TestTreeRule" time="0.017"/>
+  <testcase name="storeRule" classname="net.opentsdb.tree.TestTreeRule" time="0.058"/>
+  <testcase name="storeRuleMege" classname="net.opentsdb.tree.TestTreeRule" time="0.023"/>
+  <testcase name="storeRuleBadID0" classname="net.opentsdb.tree.TestTreeRule" time="0.014"/>
+  <testcase name="storeRuleBadID65536" classname="net.opentsdb.tree.TestTreeRule" time="0.012"/>
+  <testcase name="storeRuleNoChanges" classname="net.opentsdb.tree.TestTreeRule" time="0.017"/>
+  <testcase name="storeRuleInvalidType" classname="net.opentsdb.tree.TestTreeRule" time="0.014"/>
+  <testcase name="storeRuleInvalidMissingFieldTagk" classname="net.opentsdb.tree.TestTreeRule" time="0.012"/>
+  <testcase name="storeRuleInvalidMissingFieldTagkCustom" classname="net.opentsdb.tree.TestTreeRule" time="0.016"/>
+  <testcase name="storeRuleInvalidMissingFieldTagvCustom" classname="net.opentsdb.tree.TestTreeRule" time="0.011"/>
+  <testcase name="storeRuleInvalidMissingFieldMetricCustom" classname="net.opentsdb.tree.TestTreeRule" time="0.026"/>
+  <testcase name="storeRuleInvalidMissingCustomFieldTagkCustom" classname="net.opentsdb.tree.TestTreeRule" time="0.017"/>
+  <testcase name="storeRuleInvalidMissingCustomFieldTagvCustom" classname="net.opentsdb.tree.TestTreeRule" time="0.011"/>
+  <testcase name="storeRuleInvalidMissingCustomFieldMetricCustom" classname="net.opentsdb.tree.TestTreeRule" time="0.011"/>
+  <testcase name="storeRuleInvalidRegexIdx" classname="net.opentsdb.tree.TestTreeRule" time="0.017"/>
+  <testcase name="deleteRule" classname="net.opentsdb.tree.TestTreeRule" time="0.02"/>
+  <testcase name="deleteAllRules" classname="net.opentsdb.tree.TestTreeRule" time="0.023"/>
+  <testcase name="RULE_PREFIX" classname="net.opentsdb.tree.TestTreeRule" time="0.006"/>
+  <testcase name="getQualifier" classname="net.opentsdb.tree.TestTreeRule" time="0.013"/>
+</testsuite>

@@ -1,0 +1,68 @@
+16:21:00.962 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?summary done in 734ms
+16:21:01.068 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:01.087 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 39ms
+16:21:01.128 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:01.135 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 20ms
+16:21:01.154 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:01.161 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 9ms
+16:21:01.178 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:01.185 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 8ms
+16:21:01.215 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:01.221 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 15ms
+16:21:01.252 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:01.267 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 17ms
+16:21:01.306 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:01.324 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 23ms
+16:21:01.349 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:01.357 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 16ms
+16:21:01.375 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?summary done in 4ms
+16:21:01.398 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 7ms
+16:21:01.441 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?summary&details done in 7ms
+16:21:01.458 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:01.466 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 6ms
+16:21:01.497 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:01.504 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 13ms
+16:21:01.660 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Unknown metric: metric=doesnotexist ts=1365465600 value=42 host=web01
+16:21:01.707 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 44ms
+16:21:01.745 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Metric name was empty: metric=null ts=1365465600 value=42 host=web01
+16:21:01.764 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 7ms
+16:21:01.804 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Metric name was empty: metric=null ts=1365465600 value=42 host=web01
+16:21:01.810 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 10ms
+16:21:01.822 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Invalid timestamp: metric=sys.cpu.nice ts=0 value=42 host=web01
+16:21:01.835 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 3ms
+16:21:01.856 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Invalid timestamp: metric=sys.cpu.nice ts=0 value=42 host=web01
+16:21:01.865 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 6ms
+16:21:01.876 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Empty value: metric=sys.cpu.nice ts=1365465600 value=null host=web01
+16:21:01.887 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 9ms
+16:21:01.913 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:01.918 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 14ms
+16:21:01.970 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Invalid timestamp: metric=sys.cpu.nice ts=-1 value=42 host=web01
+16:21:01.986 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 9ms
+16:21:02.014 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Empty value: metric=sys.cpu.nice ts=1365465600 value=null host=web01
+16:21:02.036 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 5ms
+16:21:02.062 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Empty value: metric=sys.cpu.nice ts=1365465600 value= host=web01
+16:21:02.069 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 4ms
+16:21:02.089 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Unable to parse value to a number: metric=sys.cpu.nice ts=1365465600 value=notanumber host=web01
+16:21:02.097 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 6ms
+16:21:02.107 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Unable to parse value to a number: metric=sys.cpu.nice ts=1365465600 value=NaN host=web01
+16:21:02.111 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 3ms
+16:21:02.137 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Unable to parse value to a number: metric=sys.cpu.nice ts=1365465600 value=+INF host=web01
+16:21:02.142 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 3ms
+16:21:02.172 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Unable to parse value to a number: metric=sys.cpu.nice ts=1365465600 value=-INF host=web01
+16:21:02.184 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 10ms
+16:21:02.214 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Unable to parse value to a number: metric=sys.cpu.nice ts=1365465600 value=+Infinity host=web01
+16:21:02.228 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 6ms
+16:21:02.242 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Unable to parse value to a number: metric=sys.cpu.nice ts=1365465600 value=-Infinity host=web01
+16:21:02.249 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 7ms
+16:21:02.271 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Unable to parse value to a number: metric=sys.cpu.nice ts=1365465600 value=Infinity host=web01
+16:21:02.276 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 7ms
+16:21:02.285 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Missing tags: metric=sys.cpu.nice ts=1365465600 value=42 
+16:21:02.289 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 2ms
+16:21:02.303 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Missing tags: metric=sys.cpu.nice ts=1365465600 value=42 
+16:21:02.307 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 2ms
+16:21:02.318 [main] WARN  net.opentsdb.tsd.PutDataPointRpc - Missing tags: metric=sys.cpu.nice ts=1365465600 value=42 
+16:21:02.323 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put?details done in 2ms
+16:21:02.342 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:02.350 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 6ms
+16:21:02.368 [main] WARN  net.opentsdb.tsd.HttpQuery - [fake channel] Sending an empty result?! buf=EmptyChannelBuffer(ridx=0, widx=0, cap=0)
+16:21:02.371 [main] INFO  net.opentsdb.tsd.HttpQuery - [fake channel] HTTP /api/put done in 10ms

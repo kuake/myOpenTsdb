@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.opentsdb.tsd.TestTreeRpc" time="8.394" tests="90" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.7.0_75/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.75-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/tsdb/opentsdb-2.1.0RC1"/>
+    <property name="java.runtime.version" value="1.7.0_75-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.7.0_75/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/java/apache-maven-3.2.5/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="2.6.32-431.23.3.el6.x86_64"/>
+    <property name="user.home" value="/root"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="root"/>
+    <property name="java.class.path" value="/java/apache-maven-3.2.5/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.7.0_75/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_75"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.7.0_75/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.7.0_75/jre/lib/resources.jar:/usr/java/jdk1.7.0_75/jre/lib/rt.jar:/usr/java/jdk1.7.0_75/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_75/jre/lib/jsse.jar:/usr/java/jdk1.7.0_75/jre/lib/jce.jar:/usr/java/jdk1.7.0_75/jre/lib/charsets.jar:/usr/java/jdk1.7.0_75/jre/lib/jfr.jar:/usr/java/jdk1.7.0_75/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/java/apache-maven-3.2.5"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="handleTreeGetSingle" classname="net.opentsdb.tsd.TestTreeRpc" time="1.185"/>
+  <testcase name="handleTreeGetNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.098"/>
+  <testcase name="handleTreeGetBadID655536" classname="net.opentsdb.tsd.TestTreeRpc" time="0.041"/>
+  <testcase name="handleTreeQSCreate" classname="net.opentsdb.tsd.TestTreeRpc" time="0.385"/>
+  <testcase name="handleTreeQSCreateNoName" classname="net.opentsdb.tsd.TestTreeRpc" time="0.15"/>
+  <testcase name="handleTreeQSCreateOutOfIDs" classname="net.opentsdb.tsd.TestTreeRpc" time="0.168"/>
+  <testcase name="handleTreePOSTCreate" classname="net.opentsdb.tsd.TestTreeRpc" time="0.243"/>
+  <testcase name="handleTreeQSModify" classname="net.opentsdb.tsd.TestTreeRpc" time="0.091"/>
+  <testcase name="handleTreeQSModifyNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.054"/>
+  <testcase name="handleTreeQSModifyNotModified" classname="net.opentsdb.tsd.TestTreeRpc" time="0.071"/>
+  <testcase name="handleTreePOSTModify" classname="net.opentsdb.tsd.TestTreeRpc" time="0.09"/>
+  <testcase name="handleTreeQSPutNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.048"/>
+  <testcase name="handleTreeQSPutNotModified" classname="net.opentsdb.tsd.TestTreeRpc" time="0.074"/>
+  <testcase name="handleTreeQSPut" classname="net.opentsdb.tsd.TestTreeRpc" time="0.1"/>
+  <testcase name="handleTreePOSTPut" classname="net.opentsdb.tsd.TestTreeRpc" time="0.191"/>
+  <testcase name="handleTreeQSDeleteDefault" classname="net.opentsdb.tsd.TestTreeRpc" time="0.123"/>
+  <testcase name="handleTreeQSDeleteDefinition" classname="net.opentsdb.tsd.TestTreeRpc" time="0.086"/>
+  <testcase name="handleTreePOSTDeleteDefault" classname="net.opentsdb.tsd.TestTreeRpc" time="0.118"/>
+  <testcase name="handleTreePOSTDeleteDefinition" classname="net.opentsdb.tsd.TestTreeRpc" time="0.078"/>
+  <testcase name="handleTreeQSDeleteNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.044"/>
+  <testcase name="handleBranchRoot" classname="net.opentsdb.tsd.TestTreeRpc" time="0.07"/>
+  <testcase name="handleBranchChild" classname="net.opentsdb.tsd.TestTreeRpc" time="0.115"/>
+  <testcase name="handleBranchNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.051"/>
+  <testcase name="handleBranchNoTree" classname="net.opentsdb.tsd.TestTreeRpc" time="0.078"/>
+  <testcase name="handleBranchBadMethod" classname="net.opentsdb.tsd.TestTreeRpc" time="0.03"/>
+  <testcase name="handleRuleGetQS" classname="net.opentsdb.tsd.TestTreeRpc" time="0.101"/>
+  <testcase name="handleRuleGetQSNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.133"/>
+  <testcase name="handleRuleGetQSTreeNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.069"/>
+  <testcase name="handleRuleGetQSMissingTree" classname="net.opentsdb.tsd.TestTreeRpc" time="0.062"/>
+  <testcase name="handleRuleGetQSMissingLevel" classname="net.opentsdb.tsd.TestTreeRpc" time="0.092"/>
+  <testcase name="handleRuleGetQSMissingOrder" classname="net.opentsdb.tsd.TestTreeRpc" time="0.095"/>
+  <testcase name="handleRuleQSNew" classname="net.opentsdb.tsd.TestTreeRpc" time="0.114"/>
+  <testcase name="handleRuleQSNewFailValidation" classname="net.opentsdb.tsd.TestTreeRpc" time="0.095"/>
+  <testcase name="handleRuleQSNewMissingType" classname="net.opentsdb.tsd.TestTreeRpc" time="0.109"/>
+  <testcase name="handleRuleQSNotModified" classname="net.opentsdb.tsd.TestTreeRpc" time="0.079"/>
+  <testcase name="handleRuleQSModify" classname="net.opentsdb.tsd.TestTreeRpc" time="0.101"/>
+  <testcase name="handleRulePOSTNew" classname="net.opentsdb.tsd.TestTreeRpc" time="0.107"/>
+  <testcase name="handleRulePOSTModify" classname="net.opentsdb.tsd.TestTreeRpc" time="0.111"/>
+  <testcase name="handleRulesPOSTNoRules" classname="net.opentsdb.tsd.TestTreeRpc" time="0.062"/>
+  <testcase name="handleRuleQSPut" classname="net.opentsdb.tsd.TestTreeRpc" time="0.086"/>
+  <testcase name="handleRuleQSPutMissingType" classname="net.opentsdb.tsd.TestTreeRpc" time="0.114"/>
+  <testcase name="handleRuleQSDelete" classname="net.opentsdb.tsd.TestTreeRpc" time="0.087"/>
+  <testcase name="handleRuleQSDeleteNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.092"/>
+  <testcase name="handleRuleDELETE" classname="net.opentsdb.tsd.TestTreeRpc" time="0.082"/>
+  <testcase name="handleRuleBadMethod" classname="net.opentsdb.tsd.TestTreeRpc" time="0.019"/>
+  <testcase name="handleRulesGetQS" classname="net.opentsdb.tsd.TestTreeRpc" time="0.107"/>
+  <testcase name="handleRulesPOST" classname="net.opentsdb.tsd.TestTreeRpc" time="0.135"/>
+  <testcase name="handleRulesPOSTEmpty" classname="net.opentsdb.tsd.TestTreeRpc" time="0.093"/>
+  <testcase name="handleRulesPUT" classname="net.opentsdb.tsd.TestTreeRpc" time="0.129"/>
+  <testcase name="handleRulesPOSTTreeMissmatch" classname="net.opentsdb.tsd.TestTreeRpc" time="0.092"/>
+  <testcase name="handleRulesDeleteQS" classname="net.opentsdb.tsd.TestTreeRpc" time="0.122"/>
+  <testcase name="handleRulesDelete" classname="net.opentsdb.tsd.TestTreeRpc" time="0.125"/>
+  <testcase name="handleRulesDeleteTreeNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.077"/>
+  <testcase name="handleTestQS" classname="net.opentsdb.tsd.TestTreeRpc" time="0.198"/>
+  <testcase name="handleTestQSMulti" classname="net.opentsdb.tsd.TestTreeRpc" time="0.125"/>
+  <testcase name="handleTestPOST" classname="net.opentsdb.tsd.TestTreeRpc" time="0.115"/>
+  <testcase name="handleTestPUT" classname="net.opentsdb.tsd.TestTreeRpc" time="0.103"/>
+  <testcase name="handleTestPOSTMulti" classname="net.opentsdb.tsd.TestTreeRpc" time="0.115"/>
+  <testcase name="handleTestTSUIDNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.05"/>
+  <testcase name="handleTestNSU" classname="net.opentsdb.tsd.TestTreeRpc" time="0.054"/>
+  <testcase name="handleTestTreeNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.036"/>
+  <testcase name="handleTestMissingTreeId" classname="net.opentsdb.tsd.TestTreeRpc" time="0.032"/>
+  <testcase name="handleTestQSMissingTSUIDs" classname="net.opentsdb.tsd.TestTreeRpc" time="0.039"/>
+  <testcase name="handleTestPOSTMissingTSUIDs" classname="net.opentsdb.tsd.TestTreeRpc" time="0.043"/>
+  <testcase name="handleTestBadMethod" classname="net.opentsdb.tsd.TestTreeRpc" time="0.009"/>
+  <testcase name="handleCollissionsQS" classname="net.opentsdb.tsd.TestTreeRpc" time="0.07"/>
+  <testcase name="handleCollissionsQSSingleTSUID" classname="net.opentsdb.tsd.TestTreeRpc" time="0.059"/>
+  <testcase name="handleCollissionsQSTSUIDs" classname="net.opentsdb.tsd.TestTreeRpc" time="0.042"/>
+  <testcase name="handleCollissionsQSTSUIDNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.043"/>
+  <testcase name="handleCollissionsPOST" classname="net.opentsdb.tsd.TestTreeRpc" time="0.04"/>
+  <testcase name="handleCollissionsPOSTSingleTSUID" classname="net.opentsdb.tsd.TestTreeRpc" time="0.046"/>
+  <testcase name="handleCollissionsPOSTTSUIDs" classname="net.opentsdb.tsd.TestTreeRpc" time="0.044"/>
+  <testcase name="handleCollissionsTreeNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.03"/>
+  <testcase name="handleCollissionsMissingTreeId" classname="net.opentsdb.tsd.TestTreeRpc" time="0.034"/>
+  <testcase name="handleCollissionsBadMethod" classname="net.opentsdb.tsd.TestTreeRpc" time="0.007"/>
+  <testcase name="handleNotMatchedQS" classname="net.opentsdb.tsd.TestTreeRpc" time="0.043"/>
+  <testcase name="handleNotMatchedQSSingleTSUID" classname="net.opentsdb.tsd.TestTreeRpc" time="0.048"/>
+  <testcase name="handleNotMatchedQSTSUIDs" classname="net.opentsdb.tsd.TestTreeRpc" time="0.085"/>
+  <testcase name="handleNotMatchedQSTSUIDNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.041"/>
+  <testcase name="handleNotMatchedPOST" classname="net.opentsdb.tsd.TestTreeRpc" time="0.043"/>
+  <testcase name="handleNotMatchedPOSTSingleTSUID" classname="net.opentsdb.tsd.TestTreeRpc" time="0.057"/>
+  <testcase name="handleNotMatchedPOSTTSUIDs" classname="net.opentsdb.tsd.TestTreeRpc" time="0.081"/>
+  <testcase name="handleNotMatchedNotFound" classname="net.opentsdb.tsd.TestTreeRpc" time="0.034"/>
+  <testcase name="handleNotMatchedMissingTreeId" classname="net.opentsdb.tsd.TestTreeRpc" time="0.035"/>
+  <testcase name="handleNotMatchedBadMethod" classname="net.opentsdb.tsd.TestTreeRpc" time="0.006"/>
+  <testcase name="constructor" classname="net.opentsdb.tsd.TestTreeRpc" time="0.003"/>
+  <testcase name="noRoute" classname="net.opentsdb.tsd.TestTreeRpc" time="0.005"/>
+  <testcase name="handleTreeBadMethod" classname="net.opentsdb.tsd.TestTreeRpc" time="0.01"/>
+  <testcase name="handleTreeGetAll" classname="net.opentsdb.tsd.TestTreeRpc" time="0.047"/>
+  <testcase name="handleRulePUT" classname="net.opentsdb.tsd.TestTreeRpc" time="0.05"/>
+</testsuite>
